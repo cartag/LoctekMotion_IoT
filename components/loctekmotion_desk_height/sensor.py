@@ -17,7 +17,7 @@ DeskHeightSensor = loctekmotion_ns.class_(
 
 CONFIG_SCHEMA = sensor.sensor_schema(
     DeskHeightSensor,
-    unit_of_measurement=UNIT_CENTIMETER,
+    unit_of_measurement=UNIT_INCH,
     icon=ICON_ARROW_EXPAND_VERTICAL,
     accuracy_decimals=1,
     state_class=STATE_CLASS_MEASUREMENT,
